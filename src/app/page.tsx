@@ -10,6 +10,6 @@ export default async function Home() {
   console.log(data.data._embedded["wp:featuredmedia"][0].source_url);
   
   return <>
-  UNA BELLISSIMA BANANA
+  2 BELLISSIMe BANANe
   </>;
 }
