@@ -10,14 +10,6 @@ export default async function Home() {
   console.log(data.data._embedded["wp:featuredmedia"][0].source_url);
   
   return <>
-  <Image
-                src={data.data._embedded["wp:featuredmedia"][0].source_url}
-                alt="immagine"
-                width={100}
-                height={100}
-              />
-
-
-
+  UNA BELLISSIMA BANANA
   </>;
 }
